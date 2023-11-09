@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newsletter_lists",
+  "info": {
+    "singularName": "newsletter-list",
+    "pluralName": "newsletter-lists",
+    "displayName": "newsletterList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true,
+      "private": true
+    }
+  }
+}
